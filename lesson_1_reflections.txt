@@ -1,0 +1,24 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: By pinpoint only the changes I've made btw the files I could 
+pay attention what I added and how I typed and then be able
+to notice the misspelling.
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: By providing me a way to track the changes in development of the software step by step, making possible to undo harmful changes to the last code quickly and thus saving the production environment from long downtimes and also saving more time to development itself than cleaning up the mess and fixing bugs.  
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A: Pros - by doing it manually you can choose the best moments to make the history of the versions of your file more logical and understandable to track it.
+Cons - you could lose some work while working a bigger and more complex problem on your code if something bad happens like drop power or connection.
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Because when coding some of the files can be related and depended on each other. So, make sense to save multiple files in one commit in order to make easier to track all the changes for the same logical purpose in several different files.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: git log => to see all of commits made, one by one
+git log --stat => give you the stats of each commit like how many modifications (inserts and deletes) there are on it.
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Being able to return to a previous version of my files I can verify exactly at what moment a bug is introduced and identify it more easily and then make just the right changes on my last version avoiding breaking something.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: I want to try it with code samples of the Udacity course then I'll try when writing on my own codes.
