@@ -5,4 +5,19 @@ You need to do it in order to start controlling the versions of its files.
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging area is a file in your Git Directory that stores information about what will go to your next commit. It's different from repository which is where stores all the metadata and object database for your project and also where you make you commits. And it's different from working directory which is a single checkout of one version of the project, that means, these files are pulled out of the repository and placed on disk for you to use or modify.
 
- 
+ Q: How can you use the staging area to make sure you have one commit per logical change?
+ I can check before commit the differences between the files in my working area and those in the repository and see if all necessary changes were made into the files in order to commit only when I finish a logical change.
+
+ Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+ A: There are some situations such as Fixing a bug, implementing a new feature, translation to other languages or doing some experimental stuff on code.
+ Branches would help to organize your history by keeping apart from your main project (used to be something in Production environment) the history of other smaller projects like fixing bugs or creating new features. Also, they help to keep your "production environment" always safe and working, avoiding any changes to break it.
+
+ Q: How do the diagrams help you visualize the branch structure?
+ A: Show me graphically all the commits that belong to each branch and exactly where each one is diverged from the master branch.
+
+ Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ A: The result is the combination between the final working file on the branch and the last commit master branch, and also their history of changes.
+ We represent it the way we do in order to make easy to understand what are all the changes made in the project and also to make known where those changes came from a branch or not.
+
+ Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ A: Git's automatic merging helps a lot to avoid to make this task a consuming time one. It's possible that sometimes this doesn't get well, but you can always fix it manually later if needed. Always doing merges manually is certainly can be very painful and consuming time, but it's very good to do it always when the automatic merges failed because it's the opportunity to check and resolve any possible conflict that it detects, also avoiding consuming time debugs later.
