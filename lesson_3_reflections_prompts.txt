@@ -12,3 +12,8 @@ Forks = It's very similiar to clone, but in the GitHub context. This means that 
 
 Q: What is the benefit of having a copy of the last known state of the remote stored locally?
 A: You can know before pushing commits to a remote if your commit states are ahead or diverged from it.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: I'd be sharing my files on clouds system like dropbox, downloading them, renaming them each time I've changed and so my collaborators. We'd keep commenting about code with each other by chat or writting down comments on files.
+It would be very hard and a consuming task to track the differences between old files and new one.
+Certainly, it's much easier to track the changes made in multiple files by several people and point at mistakes and give suggestions using the powerful tools Git/GitHub provide such as history log, branches, merges, pull request, comments and so on.
